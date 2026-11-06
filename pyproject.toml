@@ -1,0 +1,42 @@
+[build-system]
+requires = ['setuptools>=68']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = 'agentops'
+version = '0.1.0'
+description = 'Closed-Loop AgentOps on Databricks: red-teaming, trace-driven optimisation and gated releases for multi-agent LLMs'
+readme = 'README.md'
+license = { text = 'MIT' }
+requires-python = '>=3.11'
+dependencies = [
+  'databricks-langgraph-multiagent-llmops @ git+https://github.com/VenkatagiriRamesh/databricks-langgraph-multiagent-llmops@b798a281e46109af72a2c5a7fccaad8ba7ddde1d',
+  'databricks-sdk>=0.40.0',
+  'mlflow>=3.0.0',
+  'langgraph>=0.2.0',
+  'pandas>=2.0.0',
+  'psycopg[binary]>=3.1',
+  'psycopg-pool>=3.2',
+  'langgraph-checkpoint-postgres>=2.0',
+  'pyyaml>=6',
+]
+
+[project.optional-dependencies]
+dev = ['pytest>=8', 'pytest-mock>=3.14', 'ruff>=0.5']
+
+[tool.setuptools.packages.find]
+where = ['src']
+
+[tool.pytest.ini_options]
+testpaths = ['tests']
+markers = ['pg: needs a Postgres reachable through PG_TEST_DSN (skipped when unset)']
+
+[tool.ruff]
+line-length = 100
+src = ['src', 'scripts', 'tests']
+
+[tool.ruff.format]
+quote-style = 'single'
+
+[tool.ruff.lint]
+select = ['E', 'F', 'I', 'B']
