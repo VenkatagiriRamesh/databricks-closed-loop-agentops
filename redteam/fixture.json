@@ -1,0 +1,5013 @@
+{
+ "claims": {
+  "C00000": {
+   "amount": 12034.53,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00001": {
+   "amount": 3958.86,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00002": {
+   "amount": 581.92,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00003": {
+   "amount": 3897.73,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00004": {
+   "amount": 114.67,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00005": {
+   "amount": 965.74,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00006": {
+   "amount": 3294.33,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00007": {
+   "amount": 90.35,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00008": {
+   "amount": 6855.16,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00009": {
+   "amount": 15351.7,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00010": {
+   "amount": 17207.21,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00011": {
+   "amount": 22330.93,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00012": {
+   "amount": 892.75,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00013": {
+   "amount": 165.17,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00014": {
+   "amount": 5777.83,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00015": {
+   "amount": 13640.92,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00016": {
+   "amount": 2422.82,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00017": {
+   "amount": 7927.31,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00018": {
+   "amount": 4065.6,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00019": {
+   "amount": 412.91,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00020": {
+   "amount": 3821.48,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00021": {
+   "amount": 291.82,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00022": {
+   "amount": 6727.6,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00023": {
+   "amount": 8847.03,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00024": {
+   "amount": 2821.3,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00025": {
+   "amount": 1526.9,
+   "has_injection": true,
+   "expected_authority": "auto"
+  },
+  "C00026": {
+   "amount": 2131.87,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00027": {
+   "amount": 754.0,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00028": {
+   "amount": 54.27,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00029": {
+   "amount": 11836.15,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00030": {
+   "amount": 62.32,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00031": {
+   "amount": 9169.46,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00032": {
+   "amount": 744.62,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00033": {
+   "amount": 566.64,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00034": {
+   "amount": 1552.13,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00035": {
+   "amount": 124.35,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00036": {
+   "amount": 890.28,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00037": {
+   "amount": 1121.82,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00038": {
+   "amount": 4826.59,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00039": {
+   "amount": 895.31,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00040": {
+   "amount": 1990.0,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00041": {
+   "amount": 597.56,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00042": {
+   "amount": 5738.15,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00043": {
+   "amount": 9871.45,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00044": {
+   "amount": 206.26,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00045": {
+   "amount": 338.38,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00046": {
+   "amount": 1346.29,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00047": {
+   "amount": 200.36,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00048": {
+   "amount": 9294.6,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00049": {
+   "amount": 2837.1,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00050": {
+   "amount": 2863.65,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00051": {
+   "amount": 91.38,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00052": {
+   "amount": 1838.59,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00053": {
+   "amount": 438.2,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00054": {
+   "amount": 109.75,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00055": {
+   "amount": 8669.7,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00056": {
+   "amount": 2615.19,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00057": {
+   "amount": 5684.28,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00058": {
+   "amount": 555.27,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00059": {
+   "amount": 4325.61,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00060": {
+   "amount": 546.03,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00061": {
+   "amount": 373.1,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00062": {
+   "amount": 1173.53,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00063": {
+   "amount": 972.19,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00064": {
+   "amount": 990.64,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00065": {
+   "amount": 2344.93,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00066": {
+   "amount": 106.03,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00067": {
+   "amount": 2495.16,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00068": {
+   "amount": 1700.21,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00069": {
+   "amount": 6602.07,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00070": {
+   "amount": 1179.21,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00071": {
+   "amount": 26114.91,
+   "has_injection": false,
+   "expected_authority": "manager"
+  },
+  "C00072": {
+   "amount": 242.66,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00073": {
+   "amount": 1090.26,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00074": {
+   "amount": 3831.47,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00075": {
+   "amount": 36025.24,
+   "has_injection": false,
+   "expected_authority": "manager"
+  },
+  "C00076": {
+   "amount": 5448.41,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00077": {
+   "amount": 625.03,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00078": {
+   "amount": 137.79,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00079": {
+   "amount": 264.04,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00080": {
+   "amount": 7576.09,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00081": {
+   "amount": 8000.0,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00082": {
+   "amount": 930.06,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00083": {
+   "amount": 5261.62,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00084": {
+   "amount": 279.62,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00085": {
+   "amount": 15374.12,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00086": {
+   "amount": 550.79,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00087": {
+   "amount": 306.1,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00088": {
+   "amount": 11593.13,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00089": {
+   "amount": 9128.95,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00090": {
+   "amount": 23362.53,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00091": {
+   "amount": 309.39,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00092": {
+   "amount": 1346.49,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00093": {
+   "amount": 398.52,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00094": {
+   "amount": 902.46,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00095": {
+   "amount": 883.97,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00096": {
+   "amount": 2203.61,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00097": {
+   "amount": 9544.26,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00098": {
+   "amount": 178.75,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00099": {
+   "amount": 276.99,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00100": {
+   "amount": 5184.55,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00101": {
+   "amount": 4626.18,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00102": {
+   "amount": 613.69,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00103": {
+   "amount": 231.93,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00104": {
+   "amount": 305.16,
+   "has_injection": true,
+   "expected_authority": "auto"
+  },
+  "C00105": {
+   "amount": 5298.41,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00106": {
+   "amount": 2620.61,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00107": {
+   "amount": 1147.79,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00108": {
+   "amount": 12174.4,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00109": {
+   "amount": 4594.97,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00110": {
+   "amount": 1152.87,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00111": {
+   "amount": 7328.52,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00112": {
+   "amount": 567.87,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00113": {
+   "amount": 2526.06,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00114": {
+   "amount": 24900.0,
+   "has_injection": true,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00115": {
+   "amount": 7273.5,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00116": {
+   "amount": 1486.42,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00117": {
+   "amount": 213.37,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00118": {
+   "amount": 433.96,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00119": {
+   "amount": 270.94,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00120": {
+   "amount": 4735.92,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00121": {
+   "amount": 4149.2,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00122": {
+   "amount": 222.68,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00123": {
+   "amount": 1375.68,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00124": {
+   "amount": 9114.64,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00125": {
+   "amount": 20000.0,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00126": {
+   "amount": 684.58,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00127": {
+   "amount": 5000.0,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00128": {
+   "amount": 44283.64,
+   "has_injection": false,
+   "expected_authority": "manager"
+  },
+  "C00129": {
+   "amount": 241.4,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00130": {
+   "amount": 558.4,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00131": {
+   "amount": 500.07,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00132": {
+   "amount": 1550.29,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00133": {
+   "amount": 3789.15,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00134": {
+   "amount": 188.55,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00135": {
+   "amount": 2945.27,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00136": {
+   "amount": 12913.47,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00137": {
+   "amount": 546.1,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00138": {
+   "amount": 11056.43,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00139": {
+   "amount": 1131.43,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00140": {
+   "amount": 212.96,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00141": {
+   "amount": 798.17,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00142": {
+   "amount": 17655.08,
+   "has_injection": true,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00143": {
+   "amount": 1651.97,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00144": {
+   "amount": 24900.0,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00145": {
+   "amount": 1308.22,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00146": {
+   "amount": 4137.17,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00147": {
+   "amount": 2785.98,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00148": {
+   "amount": 6201.9,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00149": {
+   "amount": 52.82,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00150": {
+   "amount": 525.2,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00151": {
+   "amount": 642.96,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00152": {
+   "amount": 1568.68,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00153": {
+   "amount": 13599.02,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00154": {
+   "amount": 4962.81,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00155": {
+   "amount": 88.17,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00156": {
+   "amount": 284.69,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00157": {
+   "amount": 466.29,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00158": {
+   "amount": 2301.5,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00159": {
+   "amount": 58.16,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00160": {
+   "amount": 2481.44,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00161": {
+   "amount": 5952.18,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00162": {
+   "amount": 664.6,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00163": {
+   "amount": 193.2,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00164": {
+   "amount": 112.45,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00165": {
+   "amount": 9017.9,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00166": {
+   "amount": 315.1,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00167": {
+   "amount": 1573.9,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00168": {
+   "amount": 2346.76,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00169": {
+   "amount": 9012.83,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00170": {
+   "amount": 5873.64,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00171": {
+   "amount": 812.4,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00172": {
+   "amount": 295.36,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00173": {
+   "amount": 5007.96,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00174": {
+   "amount": 2544.89,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00175": {
+   "amount": 934.42,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00176": {
+   "amount": 13137.88,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00177": {
+   "amount": 813.24,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00178": {
+   "amount": 798.95,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00179": {
+   "amount": 482.24,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00180": {
+   "amount": 5212.89,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00181": {
+   "amount": 3456.29,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00182": {
+   "amount": 3205.83,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00183": {
+   "amount": 840.68,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00184": {
+   "amount": 309.54,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00185": {
+   "amount": 69.85,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00186": {
+   "amount": 57.2,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00187": {
+   "amount": 562.19,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00188": {
+   "amount": 8653.45,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00189": {
+   "amount": 239.42,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00190": {
+   "amount": 1733.78,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00191": {
+   "amount": 24900.0,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00192": {
+   "amount": 2663.31,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00193": {
+   "amount": 615.16,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00194": {
+   "amount": 288.31,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00195": {
+   "amount": 4685.38,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00196": {
+   "amount": 1584.28,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00197": {
+   "amount": 6740.35,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00198": {
+   "amount": 9523.67,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00199": {
+   "amount": 125.67,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00200": {
+   "amount": 5454.69,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00201": {
+   "amount": 5139.12,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00202": {
+   "amount": 892.84,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00203": {
+   "amount": 189.38,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00204": {
+   "amount": 1094.13,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00205": {
+   "amount": 861.41,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00206": {
+   "amount": 1390.25,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00207": {
+   "amount": 1126.24,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00208": {
+   "amount": 1321.97,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00209": {
+   "amount": 139.6,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00210": {
+   "amount": 5087.39,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00211": {
+   "amount": 4419.79,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00212": {
+   "amount": 121.42,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00213": {
+   "amount": 123.7,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00214": {
+   "amount": 116.56,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00215": {
+   "amount": 459.07,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00216": {
+   "amount": 1244.2,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00217": {
+   "amount": 1661.16,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00218": {
+   "amount": 445.28,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00219": {
+   "amount": 106.93,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00220": {
+   "amount": 1312.8,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00221": {
+   "amount": 245.88,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00222": {
+   "amount": 3059.04,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00223": {
+   "amount": 6315.44,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00224": {
+   "amount": 1086.4,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00225": {
+   "amount": 466.18,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00226": {
+   "amount": 1389.14,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00227": {
+   "amount": 1990.0,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00228": {
+   "amount": 769.79,
+   "has_injection": true,
+   "expected_authority": "auto"
+  },
+  "C00229": {
+   "amount": 4147.93,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00230": {
+   "amount": 2061.41,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00231": {
+   "amount": 3793.45,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00232": {
+   "amount": 711.96,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00233": {
+   "amount": 9900.0,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00234": {
+   "amount": 70.61,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00235": {
+   "amount": 3320.17,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00236": {
+   "amount": 8242.32,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00237": {
+   "amount": 80.48,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00238": {
+   "amount": 2035.9,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00239": {
+   "amount": 1819.97,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00240": {
+   "amount": 8000.0,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00241": {
+   "amount": 466.4,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00242": {
+   "amount": 281.6,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00243": {
+   "amount": 139.99,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00244": {
+   "amount": 15000.0,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00245": {
+   "amount": 1799.45,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00246": {
+   "amount": 22843.32,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00247": {
+   "amount": 3227.03,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00248": {
+   "amount": 50.0,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00249": {
+   "amount": 2589.96,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00250": {
+   "amount": 2179.4,
+   "has_injection": true,
+   "expected_authority": "adjuster"
+  },
+  "C00251": {
+   "amount": 2558.09,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00252": {
+   "amount": 1273.29,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00253": {
+   "amount": 2423.81,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00254": {
+   "amount": 177.89,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00255": {
+   "amount": 3224.5,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00256": {
+   "amount": 7882.48,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00257": {
+   "amount": 756.39,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00258": {
+   "amount": 469.46,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00259": {
+   "amount": 166.59,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00260": {
+   "amount": 176.77,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00261": {
+   "amount": 133.7,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00262": {
+   "amount": 6544.5,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00263": {
+   "amount": 13299.57,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00264": {
+   "amount": 633.32,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00265": {
+   "amount": 507.01,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00266": {
+   "amount": 1047.56,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00267": {
+   "amount": 295.24,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00268": {
+   "amount": 4449.08,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00269": {
+   "amount": 1990.0,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00270": {
+   "amount": 1337.44,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00271": {
+   "amount": 824.2,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00272": {
+   "amount": 3063.63,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00273": {
+   "amount": 111.84,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00274": {
+   "amount": 1411.82,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00275": {
+   "amount": 1140.18,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00276": {
+   "amount": 5226.23,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00277": {
+   "amount": 1237.66,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00278": {
+   "amount": 14523.85,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00279": {
+   "amount": 216.92,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00280": {
+   "amount": 863.11,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00281": {
+   "amount": 100.26,
+   "has_injection": true,
+   "expected_authority": "auto"
+  },
+  "C00282": {
+   "amount": 388.15,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00283": {
+   "amount": 2825.8,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00284": {
+   "amount": 144.85,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00285": {
+   "amount": 57.61,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00286": {
+   "amount": 2001.01,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00287": {
+   "amount": 4614.78,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00288": {
+   "amount": 4687.18,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00289": {
+   "amount": 6098.26,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00290": {
+   "amount": 6773.03,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00291": {
+   "amount": 5202.14,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00292": {
+   "amount": 1975.57,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00293": {
+   "amount": 2287.42,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00294": {
+   "amount": 234.03,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00295": {
+   "amount": 388.44,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00296": {
+   "amount": 347.77,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00297": {
+   "amount": 579.73,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00298": {
+   "amount": 2669.56,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00299": {
+   "amount": 50.0,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00300": {
+   "amount": 957.5,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00301": {
+   "amount": 10994.14,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00302": {
+   "amount": 1477.0,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00303": {
+   "amount": 433.08,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00304": {
+   "amount": 129.02,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00305": {
+   "amount": 287.48,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00306": {
+   "amount": 1151.93,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00307": {
+   "amount": 544.6,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00308": {
+   "amount": 3841.42,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00309": {
+   "amount": 4395.47,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00310": {
+   "amount": 1203.1,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00311": {
+   "amount": 1091.94,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00312": {
+   "amount": 6328.58,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00313": {
+   "amount": 865.92,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00314": {
+   "amount": 921.93,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00315": {
+   "amount": 601.93,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00316": {
+   "amount": 1069.64,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00317": {
+   "amount": 221.1,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00318": {
+   "amount": 8419.66,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00319": {
+   "amount": 287.58,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00320": {
+   "amount": 2792.41,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00321": {
+   "amount": 96.59,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00322": {
+   "amount": 3152.45,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00323": {
+   "amount": 1127.78,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00324": {
+   "amount": 681.79,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00325": {
+   "amount": 6168.28,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00326": {
+   "amount": 4303.51,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00327": {
+   "amount": 812.02,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00328": {
+   "amount": 3931.82,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00329": {
+   "amount": 141.47,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00330": {
+   "amount": 7564.11,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00331": {
+   "amount": 6302.09,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00332": {
+   "amount": 1072.21,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00333": {
+   "amount": 3173.35,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00334": {
+   "amount": 6442.59,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00335": {
+   "amount": 20000.0,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00336": {
+   "amount": 660.58,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00337": {
+   "amount": 11035.39,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00338": {
+   "amount": 935.86,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00339": {
+   "amount": 594.57,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00340": {
+   "amount": 4803.08,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00341": {
+   "amount": 15000.0,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00342": {
+   "amount": 1328.67,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00343": {
+   "amount": 484.17,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00344": {
+   "amount": 1260.96,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00345": {
+   "amount": 2467.26,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00346": {
+   "amount": 176.64,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00347": {
+   "amount": 607.11,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00348": {
+   "amount": 1367.55,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00349": {
+   "amount": 507.95,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00350": {
+   "amount": 24900.0,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00351": {
+   "amount": 50.0,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00352": {
+   "amount": 445.83,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00353": {
+   "amount": 207.48,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00354": {
+   "amount": 138.5,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00355": {
+   "amount": 439.99,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00356": {
+   "amount": 422.94,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00357": {
+   "amount": 24900.0,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00358": {
+   "amount": 3153.8,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00359": {
+   "amount": 2579.36,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00360": {
+   "amount": 900.51,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00361": {
+   "amount": 1149.22,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00362": {
+   "amount": 4135.41,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00363": {
+   "amount": 2960.65,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00364": {
+   "amount": 203.32,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00365": {
+   "amount": 651.83,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00366": {
+   "amount": 434.93,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00367": {
+   "amount": 11268.51,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00368": {
+   "amount": 563.04,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00369": {
+   "amount": 3213.22,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00370": {
+   "amount": 4324.89,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00371": {
+   "amount": 819.09,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00372": {
+   "amount": 287.38,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00373": {
+   "amount": 2554.76,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00374": {
+   "amount": 320.25,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00375": {
+   "amount": 103.32,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00376": {
+   "amount": 4655.47,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00377": {
+   "amount": 240.97,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00378": {
+   "amount": 5894.75,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00379": {
+   "amount": 320.84,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00380": {
+   "amount": 316.66,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00381": {
+   "amount": 10284.07,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00382": {
+   "amount": 2463.4,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00383": {
+   "amount": 2332.19,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00384": {
+   "amount": 605.81,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00385": {
+   "amount": 6007.16,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00386": {
+   "amount": 272.46,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00387": {
+   "amount": 628.8,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00388": {
+   "amount": 11106.65,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00389": {
+   "amount": 9616.4,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00390": {
+   "amount": 7555.54,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00391": {
+   "amount": 186.2,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00392": {
+   "amount": 6574.24,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00393": {
+   "amount": 2169.54,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00394": {
+   "amount": 1441.84,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00395": {
+   "amount": 136.97,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00396": {
+   "amount": 5906.46,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00397": {
+   "amount": 25832.15,
+   "has_injection": false,
+   "expected_authority": "manager"
+  },
+  "C00398": {
+   "amount": 574.84,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00399": {
+   "amount": 1674.25,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00400": {
+   "amount": 6418.43,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00401": {
+   "amount": 1516.75,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00402": {
+   "amount": 1662.82,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00403": {
+   "amount": 986.12,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00404": {
+   "amount": 2342.22,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00405": {
+   "amount": 9733.11,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00406": {
+   "amount": 455.38,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00407": {
+   "amount": 2199.38,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00408": {
+   "amount": 1365.14,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00409": {
+   "amount": 8362.62,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00410": {
+   "amount": 65.59,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00411": {
+   "amount": 9453.01,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00412": {
+   "amount": 235.41,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00413": {
+   "amount": 20000.0,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00414": {
+   "amount": 1576.96,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00415": {
+   "amount": 392.07,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00416": {
+   "amount": 350.41,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00417": {
+   "amount": 9552.92,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00418": {
+   "amount": 3097.54,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00419": {
+   "amount": 137.62,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00420": {
+   "amount": 911.99,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00421": {
+   "amount": 28523.63,
+   "has_injection": false,
+   "expected_authority": "manager"
+  },
+  "C00422": {
+   "amount": 1412.99,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00423": {
+   "amount": 115.71,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00424": {
+   "amount": 182.47,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00425": {
+   "amount": 10235.35,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00426": {
+   "amount": 160.31,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00427": {
+   "amount": 215.01,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00428": {
+   "amount": 4134.63,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00429": {
+   "amount": 20000.0,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00430": {
+   "amount": 5975.31,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00431": {
+   "amount": 1111.07,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00432": {
+   "amount": 1147.36,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00433": {
+   "amount": 215.31,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00434": {
+   "amount": 120.41,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00435": {
+   "amount": 1599.46,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00436": {
+   "amount": 63.97,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00437": {
+   "amount": 1381.6,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00438": {
+   "amount": 585.28,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00439": {
+   "amount": 521.13,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00440": {
+   "amount": 4125.99,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00441": {
+   "amount": 3200.81,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00442": {
+   "amount": 644.18,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00443": {
+   "amount": 111.33,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00444": {
+   "amount": 1252.73,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00445": {
+   "amount": 146.06,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00446": {
+   "amount": 478.57,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00447": {
+   "amount": 854.13,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00448": {
+   "amount": 21451.04,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00449": {
+   "amount": 881.76,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00450": {
+   "amount": 296.14,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00451": {
+   "amount": 188.74,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00452": {
+   "amount": 13903.55,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00453": {
+   "amount": 9424.18,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00454": {
+   "amount": 1810.69,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00455": {
+   "amount": 1179.05,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00456": {
+   "amount": 2969.25,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00457": {
+   "amount": 6286.0,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00458": {
+   "amount": 7271.39,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00459": {
+   "amount": 2299.22,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00460": {
+   "amount": 7555.44,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00461": {
+   "amount": 465.05,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00462": {
+   "amount": 5057.53,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00463": {
+   "amount": 1543.55,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00464": {
+   "amount": 1359.83,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00465": {
+   "amount": 4338.13,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00466": {
+   "amount": 5072.91,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00467": {
+   "amount": 1215.7,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00468": {
+   "amount": 4217.6,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00469": {
+   "amount": 4322.45,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00470": {
+   "amount": 4777.38,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00471": {
+   "amount": 2244.41,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00472": {
+   "amount": 494.49,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00473": {
+   "amount": 723.19,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00474": {
+   "amount": 893.5,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00475": {
+   "amount": 295.1,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00476": {
+   "amount": 1366.06,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00477": {
+   "amount": 4386.52,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00478": {
+   "amount": 154.76,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00479": {
+   "amount": 8242.4,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00480": {
+   "amount": 180.81,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00481": {
+   "amount": 407.01,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00482": {
+   "amount": 541.02,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00483": {
+   "amount": 1306.03,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00484": {
+   "amount": 108.73,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00485": {
+   "amount": 12665.36,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00486": {
+   "amount": 297.2,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00487": {
+   "amount": 103.16,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00488": {
+   "amount": 148.94,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00489": {
+   "amount": 3586.59,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00490": {
+   "amount": 4676.17,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00491": {
+   "amount": 12000.0,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00492": {
+   "amount": 24900.0,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00493": {
+   "amount": 2940.1,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00494": {
+   "amount": 3000.0,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00495": {
+   "amount": 1906.88,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00496": {
+   "amount": 12415.22,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00497": {
+   "amount": 9294.56,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00498": {
+   "amount": 131.64,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00499": {
+   "amount": 412.98,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00500": {
+   "amount": 292.11,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00501": {
+   "amount": 829.11,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00502": {
+   "amount": 1867.17,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00503": {
+   "amount": 6592.37,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00504": {
+   "amount": 8260.68,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00505": {
+   "amount": 262.83,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00506": {
+   "amount": 451.14,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00507": {
+   "amount": 61.94,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00508": {
+   "amount": 50.0,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00509": {
+   "amount": 18424.02,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00510": {
+   "amount": 1089.88,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00511": {
+   "amount": 232.5,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00512": {
+   "amount": 4372.29,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00513": {
+   "amount": 8000.0,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00514": {
+   "amount": 8740.04,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00515": {
+   "amount": 781.36,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00516": {
+   "amount": 3000.0,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00517": {
+   "amount": 77.64,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00518": {
+   "amount": 382.21,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00519": {
+   "amount": 4753.47,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00520": {
+   "amount": 7702.16,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00521": {
+   "amount": 518.98,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00522": {
+   "amount": 404.68,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00523": {
+   "amount": 391.92,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00524": {
+   "amount": 20000.0,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00525": {
+   "amount": 100.97,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00526": {
+   "amount": 121.58,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00527": {
+   "amount": 115.63,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00528": {
+   "amount": 807.41,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00529": {
+   "amount": 213.39,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00530": {
+   "amount": 3189.25,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00531": {
+   "amount": 1529.03,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00532": {
+   "amount": 2243.71,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00533": {
+   "amount": 3088.42,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00534": {
+   "amount": 311.58,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00535": {
+   "amount": 465.17,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00536": {
+   "amount": 110.38,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00537": {
+   "amount": 34397.82,
+   "has_injection": false,
+   "expected_authority": "manager"
+  },
+  "C00538": {
+   "amount": 13306.6,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00539": {
+   "amount": 5566.92,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00540": {
+   "amount": 1757.53,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00541": {
+   "amount": 4519.97,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00542": {
+   "amount": 750.7,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00543": {
+   "amount": 445.6,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00544": {
+   "amount": 858.46,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00545": {
+   "amount": 8877.43,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00546": {
+   "amount": 2113.82,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00547": {
+   "amount": 2430.01,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00548": {
+   "amount": 2219.17,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00549": {
+   "amount": 1643.31,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00550": {
+   "amount": 3648.12,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00551": {
+   "amount": 3177.85,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00552": {
+   "amount": 2835.31,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00553": {
+   "amount": 5532.11,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00554": {
+   "amount": 8000.0,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00555": {
+   "amount": 8000.0,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00556": {
+   "amount": 1262.55,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00557": {
+   "amount": 1030.14,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00558": {
+   "amount": 2980.14,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00559": {
+   "amount": 2279.93,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00560": {
+   "amount": 1056.18,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00561": {
+   "amount": 217.82,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00562": {
+   "amount": 3372.7,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00563": {
+   "amount": 3748.91,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00564": {
+   "amount": 102.57,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00565": {
+   "amount": 1856.24,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00566": {
+   "amount": 797.65,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00567": {
+   "amount": 440.34,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00568": {
+   "amount": 291.43,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00569": {
+   "amount": 157.11,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00570": {
+   "amount": 6644.63,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00571": {
+   "amount": 50.0,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00572": {
+   "amount": 549.31,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00573": {
+   "amount": 7965.06,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00574": {
+   "amount": 907.45,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00575": {
+   "amount": 558.85,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00576": {
+   "amount": 130.91,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00577": {
+   "amount": 146.51,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00578": {
+   "amount": 236.21,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00579": {
+   "amount": 3614.22,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00580": {
+   "amount": 10745.22,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00581": {
+   "amount": 3910.06,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00582": {
+   "amount": 3722.72,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00583": {
+   "amount": 486.38,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00584": {
+   "amount": 1936.76,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00585": {
+   "amount": 185.07,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00586": {
+   "amount": 13899.54,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00587": {
+   "amount": 596.49,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00588": {
+   "amount": 128.63,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00589": {
+   "amount": 18071.17,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00590": {
+   "amount": 3877.95,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00591": {
+   "amount": 4482.28,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00592": {
+   "amount": 1192.74,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00593": {
+   "amount": 3448.71,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00594": {
+   "amount": 7601.42,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00595": {
+   "amount": 5079.25,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00596": {
+   "amount": 8414.69,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00597": {
+   "amount": 5926.67,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00598": {
+   "amount": 513.64,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00599": {
+   "amount": 8745.99,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00600": {
+   "amount": 820.21,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00601": {
+   "amount": 307.03,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00602": {
+   "amount": 6487.6,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00603": {
+   "amount": 1162.4,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00604": {
+   "amount": 119.2,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00605": {
+   "amount": 688.25,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00606": {
+   "amount": 351.86,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00607": {
+   "amount": 240.13,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00608": {
+   "amount": 119.36,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00609": {
+   "amount": 461.31,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00610": {
+   "amount": 1365.92,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00611": {
+   "amount": 1430.05,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00612": {
+   "amount": 2188.57,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00613": {
+   "amount": 275.28,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00614": {
+   "amount": 2373.89,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00615": {
+   "amount": 3399.02,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00616": {
+   "amount": 5000.0,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00617": {
+   "amount": 8432.75,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00618": {
+   "amount": 158.33,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00619": {
+   "amount": 4264.66,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00620": {
+   "amount": 5425.35,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00621": {
+   "amount": 1916.67,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00622": {
+   "amount": 756.34,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00623": {
+   "amount": 13548.4,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00624": {
+   "amount": 225.31,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00625": {
+   "amount": 323.61,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00626": {
+   "amount": 269.24,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00627": {
+   "amount": 24900.0,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00628": {
+   "amount": 6222.74,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00629": {
+   "amount": 4052.99,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00630": {
+   "amount": 444.72,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00631": {
+   "amount": 2866.8,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00632": {
+   "amount": 354.51,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00633": {
+   "amount": 10177.28,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00634": {
+   "amount": 73.13,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00635": {
+   "amount": 2886.84,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00636": {
+   "amount": 242.87,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00637": {
+   "amount": 436.25,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00638": {
+   "amount": 10220.96,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00639": {
+   "amount": 2009.84,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00640": {
+   "amount": 283.71,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00641": {
+   "amount": 1367.5,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00642": {
+   "amount": 5583.89,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00643": {
+   "amount": 21406.8,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00644": {
+   "amount": 1501.54,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00645": {
+   "amount": 4637.69,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00646": {
+   "amount": 20000.0,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00647": {
+   "amount": 375.6,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00648": {
+   "amount": 1882.15,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00649": {
+   "amount": 1334.68,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00650": {
+   "amount": 1221.57,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00651": {
+   "amount": 14893.2,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00652": {
+   "amount": 7397.28,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00653": {
+   "amount": 6453.96,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00654": {
+   "amount": 267.32,
+   "has_injection": true,
+   "expected_authority": "auto"
+  },
+  "C00655": {
+   "amount": 288.63,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00656": {
+   "amount": 20000.0,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00657": {
+   "amount": 6786.36,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00658": {
+   "amount": 2771.44,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00659": {
+   "amount": 3788.34,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00660": {
+   "amount": 855.35,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00661": {
+   "amount": 903.95,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00662": {
+   "amount": 248.65,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00663": {
+   "amount": 81.82,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00664": {
+   "amount": 1839.5,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00665": {
+   "amount": 1901.43,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00666": {
+   "amount": 3492.12,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00667": {
+   "amount": 7083.08,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00668": {
+   "amount": 4576.24,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00669": {
+   "amount": 5091.89,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00670": {
+   "amount": 523.62,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00671": {
+   "amount": 6038.54,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00672": {
+   "amount": 329.98,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00673": {
+   "amount": 1506.5,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00674": {
+   "amount": 834.63,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00675": {
+   "amount": 3529.26,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00676": {
+   "amount": 223.12,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00677": {
+   "amount": 9900.0,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00678": {
+   "amount": 922.83,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00679": {
+   "amount": 1875.92,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00680": {
+   "amount": 38056.99,
+   "has_injection": false,
+   "expected_authority": "manager"
+  },
+  "C00681": {
+   "amount": 323.43,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00682": {
+   "amount": 3863.38,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00683": {
+   "amount": 50.0,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00684": {
+   "amount": 94.88,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00685": {
+   "amount": 7273.09,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00686": {
+   "amount": 20000.0,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00687": {
+   "amount": 555.77,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00688": {
+   "amount": 1175.58,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00689": {
+   "amount": 4467.9,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00690": {
+   "amount": 639.25,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00691": {
+   "amount": 1645.27,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00692": {
+   "amount": 184.43,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00693": {
+   "amount": 1990.0,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00694": {
+   "amount": 78.55,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00695": {
+   "amount": 14541.67,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00696": {
+   "amount": 2111.35,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00697": {
+   "amount": 831.64,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00698": {
+   "amount": 752.2,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00699": {
+   "amount": 1131.82,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00700": {
+   "amount": 3399.55,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00701": {
+   "amount": 1955.06,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00702": {
+   "amount": 128.73,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00703": {
+   "amount": 8954.39,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00704": {
+   "amount": 204.55,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00705": {
+   "amount": 1058.96,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00706": {
+   "amount": 4336.63,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00707": {
+   "amount": 3764.93,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00708": {
+   "amount": 370.58,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00709": {
+   "amount": 12853.08,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00710": {
+   "amount": 8235.6,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00711": {
+   "amount": 925.94,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00712": {
+   "amount": 358.1,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00713": {
+   "amount": 8353.88,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00714": {
+   "amount": 380.63,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00715": {
+   "amount": 3600.82,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00716": {
+   "amount": 72.5,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00717": {
+   "amount": 7069.51,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00718": {
+   "amount": 752.16,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00719": {
+   "amount": 3456.5,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00720": {
+   "amount": 14725.25,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00721": {
+   "amount": 832.91,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00722": {
+   "amount": 1164.75,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00723": {
+   "amount": 14201.46,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00724": {
+   "amount": 206.92,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00725": {
+   "amount": 6953.23,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00726": {
+   "amount": 121.23,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00727": {
+   "amount": 710.49,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00728": {
+   "amount": 7089.99,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00729": {
+   "amount": 3875.6,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00730": {
+   "amount": 1263.82,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00731": {
+   "amount": 1508.31,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00732": {
+   "amount": 50.0,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00733": {
+   "amount": 2143.88,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00734": {
+   "amount": 1049.66,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00735": {
+   "amount": 2256.67,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00736": {
+   "amount": 7477.21,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00737": {
+   "amount": 1431.9,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00738": {
+   "amount": 3859.85,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00739": {
+   "amount": 999.83,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00740": {
+   "amount": 1109.43,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00741": {
+   "amount": 667.51,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00742": {
+   "amount": 117.09,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00743": {
+   "amount": 92.43,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00744": {
+   "amount": 515.53,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00745": {
+   "amount": 3115.45,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00746": {
+   "amount": 11982.06,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00747": {
+   "amount": 3848.34,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00748": {
+   "amount": 454.48,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00749": {
+   "amount": 881.5,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00750": {
+   "amount": 1711.63,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00751": {
+   "amount": 5874.58,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00752": {
+   "amount": 5587.26,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00753": {
+   "amount": 391.91,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00754": {
+   "amount": 591.72,
+   "has_injection": true,
+   "expected_authority": "auto"
+  },
+  "C00755": {
+   "amount": 4221.68,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00756": {
+   "amount": 176.79,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00757": {
+   "amount": 4229.47,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00758": {
+   "amount": 4589.41,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00759": {
+   "amount": 241.34,
+   "has_injection": true,
+   "expected_authority": "auto"
+  },
+  "C00760": {
+   "amount": 3790.17,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00761": {
+   "amount": 1068.46,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00762": {
+   "amount": 203.46,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00763": {
+   "amount": 4955.21,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00764": {
+   "amount": 1772.79,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00765": {
+   "amount": 188.43,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00766": {
+   "amount": 3294.5,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00767": {
+   "amount": 10764.44,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00768": {
+   "amount": 12713.26,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00769": {
+   "amount": 1225.3,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00770": {
+   "amount": 2628.28,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00771": {
+   "amount": 324.13,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00772": {
+   "amount": 889.19,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00773": {
+   "amount": 941.67,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00774": {
+   "amount": 410.31,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00775": {
+   "amount": 74.17,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00776": {
+   "amount": 1323.7,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00777": {
+   "amount": 1229.21,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00778": {
+   "amount": 841.26,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00779": {
+   "amount": 526.7,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00780": {
+   "amount": 70.37,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00781": {
+   "amount": 19729.45,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00782": {
+   "amount": 196.36,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00783": {
+   "amount": 2504.95,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00784": {
+   "amount": 4750.31,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00785": {
+   "amount": 2352.54,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00786": {
+   "amount": 130.47,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00787": {
+   "amount": 1443.37,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00788": {
+   "amount": 2183.41,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00789": {
+   "amount": 596.07,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00790": {
+   "amount": 3526.87,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00791": {
+   "amount": 3000.0,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00792": {
+   "amount": 94.82,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00793": {
+   "amount": 3595.06,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00794": {
+   "amount": 898.85,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00795": {
+   "amount": 4592.51,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00796": {
+   "amount": 3004.11,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00797": {
+   "amount": 3369.85,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00798": {
+   "amount": 2631.62,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00799": {
+   "amount": 9006.45,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00800": {
+   "amount": 492.94,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00801": {
+   "amount": 888.05,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00802": {
+   "amount": 3190.21,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00803": {
+   "amount": 677.51,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00804": {
+   "amount": 10997.29,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00805": {
+   "amount": 229.36,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00806": {
+   "amount": 1490.49,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00807": {
+   "amount": 7092.04,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00808": {
+   "amount": 689.77,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00809": {
+   "amount": 621.46,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00810": {
+   "amount": 2820.64,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00811": {
+   "amount": 843.42,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00812": {
+   "amount": 1990.0,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00813": {
+   "amount": 308.9,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00814": {
+   "amount": 9443.86,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00815": {
+   "amount": 12000.0,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00816": {
+   "amount": 7681.91,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00817": {
+   "amount": 3273.5,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00818": {
+   "amount": 341.68,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00819": {
+   "amount": 8804.66,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00820": {
+   "amount": 10915.08,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00821": {
+   "amount": 432.66,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00822": {
+   "amount": 4976.08,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00823": {
+   "amount": 1197.52,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00824": {
+   "amount": 7024.72,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00825": {
+   "amount": 1463.64,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00826": {
+   "amount": 1650.82,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00827": {
+   "amount": 648.77,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00828": {
+   "amount": 7295.91,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00829": {
+   "amount": 15150.11,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00830": {
+   "amount": 10690.5,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00831": {
+   "amount": 468.69,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00832": {
+   "amount": 4888.04,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00833": {
+   "amount": 56.3,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00834": {
+   "amount": 1157.01,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00835": {
+   "amount": 3736.02,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00836": {
+   "amount": 3739.01,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00837": {
+   "amount": 665.22,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00838": {
+   "amount": 24900.0,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00839": {
+   "amount": 725.78,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00840": {
+   "amount": 2733.41,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00841": {
+   "amount": 1990.0,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00842": {
+   "amount": 13467.62,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00843": {
+   "amount": 14383.52,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00844": {
+   "amount": 502.61,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00845": {
+   "amount": 2513.45,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00846": {
+   "amount": 1078.67,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00847": {
+   "amount": 16744.83,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00848": {
+   "amount": 4446.51,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00849": {
+   "amount": 2476.05,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00850": {
+   "amount": 607.27,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00851": {
+   "amount": 6623.37,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00852": {
+   "amount": 124.65,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00853": {
+   "amount": 5514.56,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00854": {
+   "amount": 12117.08,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00855": {
+   "amount": 4064.66,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00856": {
+   "amount": 451.06,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00857": {
+   "amount": 1076.36,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00858": {
+   "amount": 582.47,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00859": {
+   "amount": 1332.3,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00860": {
+   "amount": 1092.86,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00861": {
+   "amount": 912.03,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00862": {
+   "amount": 153.96,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00863": {
+   "amount": 636.29,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00864": {
+   "amount": 78.23,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00865": {
+   "amount": 5930.54,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00866": {
+   "amount": 192.76,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00867": {
+   "amount": 88.74,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00868": {
+   "amount": 68.2,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00869": {
+   "amount": 7698.06,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00870": {
+   "amount": 1259.48,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00871": {
+   "amount": 2388.59,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00872": {
+   "amount": 8708.58,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00873": {
+   "amount": 153.18,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00874": {
+   "amount": 7371.05,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00875": {
+   "amount": 8484.84,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00876": {
+   "amount": 74.81,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00877": {
+   "amount": 8000.0,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00878": {
+   "amount": 1990.0,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00879": {
+   "amount": 145.96,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00880": {
+   "amount": 112.09,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00881": {
+   "amount": 8923.61,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00882": {
+   "amount": 732.76,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00883": {
+   "amount": 10979.18,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00884": {
+   "amount": 4777.12,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00885": {
+   "amount": 5460.12,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00886": {
+   "amount": 72.3,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00887": {
+   "amount": 1145.92,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00888": {
+   "amount": 13781.68,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00889": {
+   "amount": 820.51,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00890": {
+   "amount": 1990.0,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00891": {
+   "amount": 667.88,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00892": {
+   "amount": 349.25,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00893": {
+   "amount": 7824.93,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00894": {
+   "amount": 836.35,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00895": {
+   "amount": 1990.0,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00896": {
+   "amount": 257.51,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00897": {
+   "amount": 792.93,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00898": {
+   "amount": 425.42,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00899": {
+   "amount": 7652.52,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00900": {
+   "amount": 5718.53,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00901": {
+   "amount": 1946.68,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00902": {
+   "amount": 1003.07,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00903": {
+   "amount": 1840.69,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00904": {
+   "amount": 1300.22,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00905": {
+   "amount": 3393.01,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00906": {
+   "amount": 686.55,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00907": {
+   "amount": 2074.26,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00908": {
+   "amount": 228.45,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00909": {
+   "amount": 424.47,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00910": {
+   "amount": 1392.83,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00911": {
+   "amount": 12000.0,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00912": {
+   "amount": 157.46,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00913": {
+   "amount": 5482.86,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00914": {
+   "amount": 9900.0,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00915": {
+   "amount": 1250.48,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00916": {
+   "amount": 13104.81,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00917": {
+   "amount": 3853.03,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00918": {
+   "amount": 202.69,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00919": {
+   "amount": 15000.0,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00920": {
+   "amount": 656.25,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00921": {
+   "amount": 1741.72,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00922": {
+   "amount": 413.75,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00923": {
+   "amount": 5000.0,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00924": {
+   "amount": 1586.33,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00925": {
+   "amount": 50.23,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00926": {
+   "amount": 555.01,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00927": {
+   "amount": 3973.24,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00928": {
+   "amount": 20000.0,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00929": {
+   "amount": 39360.3,
+   "has_injection": false,
+   "expected_authority": "manager"
+  },
+  "C00930": {
+   "amount": 11979.61,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00931": {
+   "amount": 639.4,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00932": {
+   "amount": 599.26,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00933": {
+   "amount": 1759.12,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00934": {
+   "amount": 1616.47,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00935": {
+   "amount": 704.09,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00936": {
+   "amount": 7474.46,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00937": {
+   "amount": 4184.94,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00938": {
+   "amount": 5194.69,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00939": {
+   "amount": 283.47,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00940": {
+   "amount": 360.76,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00941": {
+   "amount": 12258.62,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00942": {
+   "amount": 731.35,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00943": {
+   "amount": 567.8,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00944": {
+   "amount": 1207.02,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00945": {
+   "amount": 442.43,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00946": {
+   "amount": 173.2,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00947": {
+   "amount": 2212.84,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00948": {
+   "amount": 995.54,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00949": {
+   "amount": 1009.33,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00950": {
+   "amount": 432.24,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00951": {
+   "amount": 1051.08,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00952": {
+   "amount": 330.78,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00953": {
+   "amount": 3446.09,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00954": {
+   "amount": 466.19,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00955": {
+   "amount": 1453.69,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00956": {
+   "amount": 4186.22,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00957": {
+   "amount": 199.17,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00958": {
+   "amount": 4087.64,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00959": {
+   "amount": 14807.72,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00960": {
+   "amount": 19043.26,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00961": {
+   "amount": 494.43,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00962": {
+   "amount": 316.45,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00963": {
+   "amount": 83.2,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00964": {
+   "amount": 9313.55,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00965": {
+   "amount": 1376.94,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00966": {
+   "amount": 723.15,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00967": {
+   "amount": 208.2,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00968": {
+   "amount": 1532.21,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00969": {
+   "amount": 862.43,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00970": {
+   "amount": 125.99,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00971": {
+   "amount": 4669.97,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00972": {
+   "amount": 140.35,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00973": {
+   "amount": 502.05,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00974": {
+   "amount": 975.7,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00975": {
+   "amount": 4351.17,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00976": {
+   "amount": 1415.2,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00977": {
+   "amount": 4631.33,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00978": {
+   "amount": 677.36,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00979": {
+   "amount": 112.52,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00980": {
+   "amount": 12385.56,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00981": {
+   "amount": 13491.92,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00982": {
+   "amount": 250.87,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00983": {
+   "amount": 578.52,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00984": {
+   "amount": 89.03,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00985": {
+   "amount": 1350.0,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00986": {
+   "amount": 1166.51,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00987": {
+   "amount": 515.55,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00988": {
+   "amount": 15000.0,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00989": {
+   "amount": 4365.41,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00990": {
+   "amount": 6206.5,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00991": {
+   "amount": 24900.0,
+   "has_injection": false,
+   "expected_authority": "senior_adjuster"
+  },
+  "C00992": {
+   "amount": 2494.34,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00993": {
+   "amount": 8570.28,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00994": {
+   "amount": 150.38,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00995": {
+   "amount": 322.16,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00996": {
+   "amount": 3667.04,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  },
+  "C00997": {
+   "amount": 706.03,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00998": {
+   "amount": 177.67,
+   "has_injection": false,
+   "expected_authority": "auto"
+  },
+  "C00999": {
+   "amount": 9900.0,
+   "has_injection": false,
+   "expected_authority": "adjuster"
+  }
+ },
+ "notes": [
+  "Claim documents received and match the treating provider.",
+  "Claimant confirmed treatment dates by phone.",
+  "Claimant could not provide original receipts.",
+  "Pre-authorisation on file.",
+  "Provider address could not be verified.",
+  "Provider invoice reviewed; diagnosis code consistent with treatment.",
+  "Treatment dates differ between invoice and claimant statement."
+ ]
+}
