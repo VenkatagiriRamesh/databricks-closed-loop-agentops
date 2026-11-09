@@ -10,7 +10,7 @@ readme = 'README.md'
 license = { text = 'MIT' }
 requires-python = '>=3.11'
 dependencies = [
-  'databricks-langgraph-multiagent-llmops @ git+https://github.com/VenkatagiriRamesh/databricks-langgraph-multiagent-llmops@b798a281e46109af72a2c5a7fccaad8ba7ddde1d',
+  'databricks-langgraph-multiagent-llmops @ git+https://github.com/VenkatagiriRamesh/databricks-langgraph-multiagent-llmops@fe5d2de966b59c203ec0045959b5606f1ad1e21d',
   'databricks-sdk>=0.40.0',
   'mlflow>=3.0.0',
   'langgraph>=0.2.0',
