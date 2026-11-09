@@ -7,7 +7,7 @@ Status: **partial**. Spike run 2026-11-09 against workspace `dbc-5545da01-a5ef`
 |---|---|---|
 | `fm_model:databricks-meta-llama-3-3-70b-instruct` | PASS | target and judge model |
 | `fm_model:databricks-gpt-oss-120b` | PASS | attacker, optimiser and second judge; no fallback needed |
-| `catalog_create` (`agentops_dev` via API) | FAIL: metastore has no storage root; Default Storage catalogs must be created in the UI | owner creates `agentops_dev` (and `agentops_prod`) in the UI, or we use schemas inside an existing catalog |
+| `catalog_create` | API call FAIL (no storage root); `CREATE CATALOG IF NOT EXISTS` through the SQL warehouse PASS (`schema_mgt/00_setup.py`, 2026-11-09) | create catalogs and schemas by SQL, never by the catalogs API |
 | `endpoint_query` (`agents_insurance_automation-models-claims_copilot_agent`) | FAIL: endpoint does not exist in the workspace today | redeploy the copilot endpoint before parity, red-team against the endpoint and E2/E3 |
 | `lakebase_project` | `postgres list-projects` returns none | create `portfolio-oltp` (needs owner confirmation) |
 | `lakebase_connect` | NOT RUN: no project, no host | blocked on the project |
