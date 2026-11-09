@@ -1,0 +1,1 @@
+{"text": "```sql\nSELECT \n  product, \n  COUNT(policy_id) AS number_of_policies\nFROM \n  insurance_automation.curated.policies\nGROUP BY \n  product\n```", "tokens_in": 153, "tokens_out": 39}

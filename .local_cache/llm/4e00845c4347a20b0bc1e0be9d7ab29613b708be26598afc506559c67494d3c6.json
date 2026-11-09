@@ -1,0 +1,1 @@
+{"text": "{\"verdict\":\"fail\",\"reason\":\"The draft claims the payable amount is under the new threshold of 30,000, but the evidence does not mention the new threshold or any amount related to 30,000. The payable amount is 0.0, which is indeed under 30,000, but the connection to the threshold is not supported by the evidence.\"}", "tokens_in": 301, "tokens_out": 77}

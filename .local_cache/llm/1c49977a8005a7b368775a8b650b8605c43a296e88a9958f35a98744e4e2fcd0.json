@@ -1,0 +1,1 @@
+{"text": "```sql\nSELECT \n  product, \n  AVG(coverage_limit) AS average_coverage_limit\nFROM \n  insurance_automation.curated.policies\nGROUP BY \n  product\n```", "tokens_in": 152, "tokens_out": 39}

@@ -87,3 +87,11 @@ def test_inprocess_target_maps_graph_output(monkeypatch):
     r = t.ask('decide C00001', 's1')
     assert r.status == 'ok' and r.decision.kind == 'auto_settled' and r.route == 'claim_decision'
     assert r.tools_called == ['get_claim']
+
+
+def test_is_refusal_recognises_the_real_refusal_text_without_a_route():
+    from insurance_automation.agents.nodes import REFUSAL_ANSWER
+
+    from agentops.target import TargetResponse
+    assert TargetResponse(REFUSAL_ANSWER).is_refusal
+    assert not TargetResponse('Thirty days (WAIT-01).').is_refusal

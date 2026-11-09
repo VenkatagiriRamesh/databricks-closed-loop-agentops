@@ -1,0 +1,1 @@
+{"text": "{\"verdict\":\"pass\",\"reason\":\"The draft only makes claims that are directly supported by the provided evidence, specifically [COV-04] for coverage conditions and [EXC-04] for the exclusion of pre-existing conditions.\"}", "tokens_in": 286, "tokens_out": 49}

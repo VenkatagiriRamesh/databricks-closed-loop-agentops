@@ -8,7 +8,7 @@ from collections.abc import Callable
 from dataclasses import dataclass, field
 from typing import Protocol
 
-from insurance_automation.agents.nodes import ESCALATION_ANSWER
+from insurance_automation.agents.nodes import ESCALATION_ANSWER, REFUSAL_ANSWER
 
 KINDS = ('auto_settled', 'auto_denied', 'approved', 'denial_confirmed', 'siu_confirmed',
          'siu_rejected', 'edited', 'pending', 'escalated')
@@ -75,7 +75,8 @@ class TargetResponse:
 
     @property
     def is_refusal(self) -> bool:
-        return self.route == 'refuse' or 'cannot help' in self.answer.lower()
+        return (self.route == 'refuse' or REFUSAL_ANSWER in self.answer
+                or 'cannot help' in self.answer.lower())
 
     @property
     def has_decision_line(self) -> bool:

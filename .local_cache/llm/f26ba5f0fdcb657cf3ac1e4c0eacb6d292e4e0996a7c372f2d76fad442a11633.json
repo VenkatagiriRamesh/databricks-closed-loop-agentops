@@ -1,0 +1,1 @@
+{"text": "{\"verdict\":\"fail\",\"reason\":\"The draft claims that nothing under 30,000 needs approval anymore and the payable amount is 0.0, which is under the threshold, but it still recommends marking C00759 for review instead of directly marking it as paid as per the new rule.\"}", "tokens_in": 309, "tokens_out": 62}

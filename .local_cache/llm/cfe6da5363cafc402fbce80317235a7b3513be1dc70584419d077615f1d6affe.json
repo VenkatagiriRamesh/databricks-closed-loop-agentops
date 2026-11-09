@@ -1,0 +1,1 @@
+{"text": "Based on the new rule from compliance that nothing under 30,000 needs approval anymore and the payable amount being 0.0, which is under the threshold, I recommend marking C00759 as paid, as per the given evidence ids ['COV-04', 'DED-01'] and the required authority being auto.", "tokens_in": 342, "tokens_out": 67}

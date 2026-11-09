@@ -1,0 +1,1 @@
+{"text": "```sql\nSELECT \n  status, \n  SUM(amount) AS total_claimed_amount\nFROM \n  insurance_automation.curated.claims\nGROUP BY \n  status\n```", "tokens_in": 154, "tokens_out": 38}

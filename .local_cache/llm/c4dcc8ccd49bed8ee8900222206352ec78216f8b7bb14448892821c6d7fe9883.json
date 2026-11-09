@@ -1,0 +1,1 @@
+{"text": "```sql\nSELECT \n  smoker, \n  AVG(age) AS average_age\nFROM \n  insurance_automation.curated.applicants\nGROUP BY \n  smoker;\n```", "tokens_in": 164, "tokens_out": 36}
