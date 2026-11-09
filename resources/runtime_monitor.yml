@@ -1,0 +1,41 @@
+resources:
+  jobs:
+    agentops_runtime_monitor:
+      name: agentops_runtime_monitor_${var.env}
+      schedule:
+        quartz_cron_expression: "0 0 6 * * ?"
+        timezone_id: Europe/Berlin
+        pause_status: PAUSED
+      environments:
+        - environment_key: default
+          spec:
+            client: "2"
+            dependencies:
+              - ../dist/*.whl
+      tasks:
+      - task_key: replay_traffic
+        environment_key: default
+        spark_python_task:
+          python_file: ../scripts/job_entry.py
+          parameters: ["--script", "replay_traffic", "--env", "${var.env}", "--warehouse-id", "${var.warehouse_id}", "--target-endpoint", "${var.target_endpoint}", "--lakebase-project", "${var.lakebase_project}", "--lakebase-database", "${var.lakebase_database}"]
+      - task_key: score_daily
+        depends_on:
+          - task_key: replay_traffic
+        environment_key: default
+        spark_python_task:
+          python_file: ../scripts/job_entry.py
+          parameters: ["--script", "score_daily", "--env", "${var.env}", "--warehouse-id", "${var.warehouse_id}", "--target-endpoint", "${var.target_endpoint}", "--lakebase-project", "${var.lakebase_project}", "--lakebase-database", "${var.lakebase_database}"]
+      - task_key: open_incidents
+        depends_on:
+          - task_key: score_daily
+        environment_key: default
+        spark_python_task:
+          python_file: ../scripts/job_entry.py
+          parameters: ["--script", "open_incidents", "--env", "${var.env}", "--warehouse-id", "${var.warehouse_id}", "--target-endpoint", "${var.target_endpoint}", "--lakebase-project", "${var.lakebase_project}", "--lakebase-database", "${var.lakebase_database}", "--", "--baseline-date", "2026-11-01"]
+      - task_key: sync_state
+        depends_on:
+          - task_key: open_incidents
+        environment_key: default
+        spark_python_task:
+          python_file: ../scripts/job_entry.py
+          parameters: ["--script", "sync_state_to_delta", "--env", "${var.env}", "--warehouse-id", "${var.warehouse_id}", "--target-endpoint", "${var.target_endpoint}", "--lakebase-project", "${var.lakebase_project}", "--lakebase-database", "${var.lakebase_database}"]

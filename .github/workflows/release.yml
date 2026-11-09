@@ -1,0 +1,25 @@
+name: release
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    if: ${{ vars.RELEASE_ENABLED == 'true' }}
+    env:
+      DATABRICKS_HOST: ${{ secrets.DATABRICKS_HOST }}
+      DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -e . build
+      - uses: databricks/setup-cli@main
+      - run: databricks bundle deploy -t prod
+      - run: databricks bundle run agentops_release_pipeline -t prod
+      - name: Summarise decision
+        run: |
+          databricks fs cp "dbfs:/Volumes/agentops_prod/state/reports/release_latest.json" release.json || true
+          [ -f release.json ] && python -m scripts.gh_summary release.json >> "$GITHUB_STEP_SUMMARY" || echo "no decision file" >> "$GITHUB_STEP_SUMMARY"

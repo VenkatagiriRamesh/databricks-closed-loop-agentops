@@ -1,0 +1,39 @@
+bundle:
+  name: agentops
+
+variables:
+  warehouse_id:
+    default: 013daddab9417eb4
+  env:
+    default: dev
+  target_endpoint:
+    default: agents_insurance_automation-models-claims_copilot_agent
+  target_model:
+    default: insurance_automation.models.claims_copilot_agent
+  lakebase_project:
+    default: portfolio-oltp
+  lakebase_database:
+    default: agentops
+
+include:
+  - resources/*.yml
+
+artifacts:
+  agentops_whl:
+    type: whl
+    build: python -m build --wheel
+    path: .
+
+targets:
+  dev:
+    default: true
+    mode: development
+    workspace:
+      profile: candiate-analysis
+  prod:
+    mode: production
+    variables:
+      env: prod
+    workspace:
+      profile: candiate-analysis
+      root_path: ~/.bundle/agentops/prod

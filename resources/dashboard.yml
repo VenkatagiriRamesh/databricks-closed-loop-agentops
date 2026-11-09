@@ -1,0 +1,7 @@
+resources:
+  dashboards:
+    agentops:
+      display_name: AgentOps ${var.env}
+      file_path: ./dashboards/agentops.lvdash.json
+      warehouse_id: ${var.warehouse_id}
+      dataset_catalog: agentops_${var.env}

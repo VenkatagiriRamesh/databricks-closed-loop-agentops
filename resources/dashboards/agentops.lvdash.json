@@ -1,0 +1,574 @@
+{
+ "datasets": [
+  {
+   "name": "ds0",
+   "displayName": "Releases",
+   "queryLines": [
+    "SELECT key, get_json_object(payload, '$.verdict') AS verdict, get_json_object(payload, '$.candidate') AS candidate, get_json_object(payload, '$.reasons') AS reasons, get_json_object(payload, '$.warnings') AS warnings, ts FROM release.decisions ORDER BY ts DESC LIMIT 200"
+   ]
+  },
+  {
+   "name": "ds1",
+   "displayName": "Red team",
+   "queryLines": [
+    "SELECT key AS run_day, get_json_object(payload, '$.overall_asr.mean') AS asr, get_json_object(payload, '$.overall_asr.n_items') AS n, get_json_object(payload, '$.truncated') AS truncated, get_json_object(payload, '$.cost_usd') AS cost_usd FROM redteam.runs ORDER BY key DESC LIMIT 200"
+   ]
+  },
+  {
+   "name": "ds2",
+   "displayName": "Improvement",
+   "queryLines": [
+    "SELECT key AS cycle_day, get_json_object(payload, '$.node') AS node, get_json_object(payload, '$.mode') AS mode, get_json_object(payload, '$.accepted') AS accepted, get_json_object(payload, '$.iterations') AS iterations, get_json_object(payload, '$.truncated') AS truncated FROM improve.cycles ORDER BY key DESC LIMIT 200"
+   ]
+  },
+  {
+   "name": "ds3",
+   "displayName": "Judges",
+   "queryLines": [
+    "SELECT key AS day, get_json_object(payload, '$.metric') AS metric, get_json_object(payload, '$.judge') AS judge, get_json_object(payload, '$.kappa') AS kappa, get_json_object(payload, '$.n_labels') AS n_labels, get_json_object(payload, '$.status') AS status FROM judging.trust ORDER BY key DESC LIMIT 200"
+   ]
+  },
+  {
+   "name": "ds4",
+   "displayName": "Runtime",
+   "queryLines": [
+    "SELECT key AS day, get_json_object(payload, '$.n') AS n, get_json_object(payload, '$.error_rate') AS error_rate, get_json_object(payload, '$.decision_line_rate') AS decision_line_rate, get_json_object(payload, '$.pii_leak_count') AS pii_leak_count, get_json_object(payload, '$.latency_p95_s') AS latency_p95_s FROM monitoring.daily_quality ORDER BY key DESC LIMIT 200"
+   ]
+  },
+  {
+   "name": "ds5",
+   "displayName": "Incidents and breaker",
+   "queryLines": [
+    "SELECT key, get_json_object(payload, '$.agent') AS agent, get_json_object(payload, '$.mode') AS mode, get_json_object(payload, '$.reason') AS reason, get_json_object(payload, '$.set_by') AS set_by, get_json_object(payload, '$.expires_at') AS expires_at FROM state.runtime_flags  LIMIT 200"
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "name": "page0",
+   "displayName": "Releases",
+   "pageType": "PAGE_TYPE_CANVAS",
+   "layout": [
+    {
+     "widget": {
+      "name": "w0",
+      "queries": [
+       {
+        "name": "main_query",
+        "query": {
+         "datasetName": "ds0",
+         "fields": [
+          {
+           "name": "key",
+           "expression": "`key`"
+          },
+          {
+           "name": "verdict",
+           "expression": "`verdict`"
+          },
+          {
+           "name": "candidate",
+           "expression": "`candidate`"
+          },
+          {
+           "name": "reasons",
+           "expression": "`reasons`"
+          },
+          {
+           "name": "warnings",
+           "expression": "`warnings`"
+          },
+          {
+           "name": "ts",
+           "expression": "`ts`"
+          }
+         ],
+         "disaggregated": true
+        }
+       }
+      ],
+      "spec": {
+       "version": 1,
+       "widgetType": "table",
+       "encodings": {
+        "columns": [
+         {
+          "fieldName": "key",
+          "displayName": "key"
+         },
+         {
+          "fieldName": "verdict",
+          "displayName": "verdict"
+         },
+         {
+          "fieldName": "candidate",
+          "displayName": "candidate"
+         },
+         {
+          "fieldName": "reasons",
+          "displayName": "reasons"
+         },
+         {
+          "fieldName": "warnings",
+          "displayName": "warnings"
+         },
+         {
+          "fieldName": "ts",
+          "displayName": "ts"
+         }
+        ]
+       },
+       "frame": {
+        "title": "Releases",
+        "showTitle": true
+       }
+      }
+     },
+     "position": {
+      "x": 0,
+      "y": 0,
+      "width": 6,
+      "height": 8
+     }
+    }
+   ]
+  },
+  {
+   "name": "page1",
+   "displayName": "Red team",
+   "pageType": "PAGE_TYPE_CANVAS",
+   "layout": [
+    {
+     "widget": {
+      "name": "w1",
+      "queries": [
+       {
+        "name": "main_query",
+        "query": {
+         "datasetName": "ds1",
+         "fields": [
+          {
+           "name": "run_day",
+           "expression": "`run_day`"
+          },
+          {
+           "name": "asr",
+           "expression": "`asr`"
+          },
+          {
+           "name": "n",
+           "expression": "`n`"
+          },
+          {
+           "name": "truncated",
+           "expression": "`truncated`"
+          },
+          {
+           "name": "cost_usd",
+           "expression": "`cost_usd`"
+          }
+         ],
+         "disaggregated": true
+        }
+       }
+      ],
+      "spec": {
+       "version": 1,
+       "widgetType": "table",
+       "encodings": {
+        "columns": [
+         {
+          "fieldName": "run_day",
+          "displayName": "run_day"
+         },
+         {
+          "fieldName": "asr",
+          "displayName": "asr"
+         },
+         {
+          "fieldName": "n",
+          "displayName": "n"
+         },
+         {
+          "fieldName": "truncated",
+          "displayName": "truncated"
+         },
+         {
+          "fieldName": "cost_usd",
+          "displayName": "cost_usd"
+         }
+        ]
+       },
+       "frame": {
+        "title": "Red team",
+        "showTitle": true
+       }
+      }
+     },
+     "position": {
+      "x": 0,
+      "y": 0,
+      "width": 6,
+      "height": 8
+     }
+    }
+   ]
+  },
+  {
+   "name": "page2",
+   "displayName": "Improvement",
+   "pageType": "PAGE_TYPE_CANVAS",
+   "layout": [
+    {
+     "widget": {
+      "name": "w2",
+      "queries": [
+       {
+        "name": "main_query",
+        "query": {
+         "datasetName": "ds2",
+         "fields": [
+          {
+           "name": "cycle_day",
+           "expression": "`cycle_day`"
+          },
+          {
+           "name": "node",
+           "expression": "`node`"
+          },
+          {
+           "name": "mode",
+           "expression": "`mode`"
+          },
+          {
+           "name": "accepted",
+           "expression": "`accepted`"
+          },
+          {
+           "name": "iterations",
+           "expression": "`iterations`"
+          },
+          {
+           "name": "truncated",
+           "expression": "`truncated`"
+          }
+         ],
+         "disaggregated": true
+        }
+       }
+      ],
+      "spec": {
+       "version": 1,
+       "widgetType": "table",
+       "encodings": {
+        "columns": [
+         {
+          "fieldName": "cycle_day",
+          "displayName": "cycle_day"
+         },
+         {
+          "fieldName": "node",
+          "displayName": "node"
+         },
+         {
+          "fieldName": "mode",
+          "displayName": "mode"
+         },
+         {
+          "fieldName": "accepted",
+          "displayName": "accepted"
+         },
+         {
+          "fieldName": "iterations",
+          "displayName": "iterations"
+         },
+         {
+          "fieldName": "truncated",
+          "displayName": "truncated"
+         }
+        ]
+       },
+       "frame": {
+        "title": "Improvement",
+        "showTitle": true
+       }
+      }
+     },
+     "position": {
+      "x": 0,
+      "y": 0,
+      "width": 6,
+      "height": 8
+     }
+    }
+   ]
+  },
+  {
+   "name": "page3",
+   "displayName": "Judges",
+   "pageType": "PAGE_TYPE_CANVAS",
+   "layout": [
+    {
+     "widget": {
+      "name": "w3",
+      "queries": [
+       {
+        "name": "main_query",
+        "query": {
+         "datasetName": "ds3",
+         "fields": [
+          {
+           "name": "day",
+           "expression": "`day`"
+          },
+          {
+           "name": "metric",
+           "expression": "`metric`"
+          },
+          {
+           "name": "judge",
+           "expression": "`judge`"
+          },
+          {
+           "name": "kappa",
+           "expression": "`kappa`"
+          },
+          {
+           "name": "n_labels",
+           "expression": "`n_labels`"
+          },
+          {
+           "name": "status",
+           "expression": "`status`"
+          }
+         ],
+         "disaggregated": true
+        }
+       }
+      ],
+      "spec": {
+       "version": 1,
+       "widgetType": "table",
+       "encodings": {
+        "columns": [
+         {
+          "fieldName": "day",
+          "displayName": "day"
+         },
+         {
+          "fieldName": "metric",
+          "displayName": "metric"
+         },
+         {
+          "fieldName": "judge",
+          "displayName": "judge"
+         },
+         {
+          "fieldName": "kappa",
+          "displayName": "kappa"
+         },
+         {
+          "fieldName": "n_labels",
+          "displayName": "n_labels"
+         },
+         {
+          "fieldName": "status",
+          "displayName": "status"
+         }
+        ]
+       },
+       "frame": {
+        "title": "Judges",
+        "showTitle": true
+       }
+      }
+     },
+     "position": {
+      "x": 0,
+      "y": 0,
+      "width": 6,
+      "height": 8
+     }
+    }
+   ]
+  },
+  {
+   "name": "page4",
+   "displayName": "Runtime",
+   "pageType": "PAGE_TYPE_CANVAS",
+   "layout": [
+    {
+     "widget": {
+      "name": "w4",
+      "queries": [
+       {
+        "name": "main_query",
+        "query": {
+         "datasetName": "ds4",
+         "fields": [
+          {
+           "name": "day",
+           "expression": "`day`"
+          },
+          {
+           "name": "n",
+           "expression": "`n`"
+          },
+          {
+           "name": "error_rate",
+           "expression": "`error_rate`"
+          },
+          {
+           "name": "decision_line_rate",
+           "expression": "`decision_line_rate`"
+          },
+          {
+           "name": "pii_leak_count",
+           "expression": "`pii_leak_count`"
+          },
+          {
+           "name": "latency_p95_s",
+           "expression": "`latency_p95_s`"
+          }
+         ],
+         "disaggregated": true
+        }
+       }
+      ],
+      "spec": {
+       "version": 1,
+       "widgetType": "table",
+       "encodings": {
+        "columns": [
+         {
+          "fieldName": "day",
+          "displayName": "day"
+         },
+         {
+          "fieldName": "n",
+          "displayName": "n"
+         },
+         {
+          "fieldName": "error_rate",
+          "displayName": "error_rate"
+         },
+         {
+          "fieldName": "decision_line_rate",
+          "displayName": "decision_line_rate"
+         },
+         {
+          "fieldName": "pii_leak_count",
+          "displayName": "pii_leak_count"
+         },
+         {
+          "fieldName": "latency_p95_s",
+          "displayName": "latency_p95_s"
+         }
+        ]
+       },
+       "frame": {
+        "title": "Runtime",
+        "showTitle": true
+       }
+      }
+     },
+     "position": {
+      "x": 0,
+      "y": 0,
+      "width": 6,
+      "height": 8
+     }
+    }
+   ]
+  },
+  {
+   "name": "page5",
+   "displayName": "Incidents and breaker",
+   "pageType": "PAGE_TYPE_CANVAS",
+   "layout": [
+    {
+     "widget": {
+      "name": "w5",
+      "queries": [
+       {
+        "name": "main_query",
+        "query": {
+         "datasetName": "ds5",
+         "fields": [
+          {
+           "name": "key",
+           "expression": "`key`"
+          },
+          {
+           "name": "agent",
+           "expression": "`agent`"
+          },
+          {
+           "name": "mode",
+           "expression": "`mode`"
+          },
+          {
+           "name": "reason",
+           "expression": "`reason`"
+          },
+          {
+           "name": "set_by",
+           "expression": "`set_by`"
+          },
+          {
+           "name": "expires_at",
+           "expression": "`expires_at`"
+          }
+         ],
+         "disaggregated": true
+        }
+       }
+      ],
+      "spec": {
+       "version": 1,
+       "widgetType": "table",
+       "encodings": {
+        "columns": [
+         {
+          "fieldName": "key",
+          "displayName": "key"
+         },
+         {
+          "fieldName": "agent",
+          "displayName": "agent"
+         },
+         {
+          "fieldName": "mode",
+          "displayName": "mode"
+         },
+         {
+          "fieldName": "reason",
+          "displayName": "reason"
+         },
+         {
+          "fieldName": "set_by",
+          "displayName": "set_by"
+         },
+         {
+          "fieldName": "expires_at",
+          "displayName": "expires_at"
+         }
+        ]
+       },
+       "frame": {
+        "title": "Incidents and breaker",
+        "showTitle": true
+       }
+      }
+     },
+     "position": {
+      "x": 0,
+      "y": 0,
+      "width": 6,
+      "height": 8
+     }
+    }
+   ]
+  }
+ ]
+}

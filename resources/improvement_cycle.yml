@@ -1,0 +1,27 @@
+resources:
+  jobs:
+    agentops_improvement_cycle:
+      name: agentops_improvement_cycle_${var.env}
+      schedule:
+        quartz_cron_expression: "0 0 7 ? * MON"
+        timezone_id: Europe/Berlin
+        pause_status: UNPAUSED  # development mode pauses schedules automatically
+      environments:
+        - environment_key: default
+          spec:
+            client: "2"
+            dependencies:
+              - ../dist/*.whl
+      tasks:
+      - task_key: attribute_failures
+        environment_key: default
+        spark_python_task:
+          python_file: ../scripts/job_entry.py
+          parameters: ["--script", "attribute_failures", "--env", "${var.env}", "--warehouse-id", "${var.warehouse_id}", "--target-endpoint", "${var.target_endpoint}", "--lakebase-project", "${var.lakebase_project}", "--lakebase-database", "${var.lakebase_database}"]
+      - task_key: optimise
+        depends_on:
+          - task_key: attribute_failures
+        environment_key: default
+        spark_python_task:
+          python_file: ../scripts/job_entry.py
+          parameters: ["--script", "optimise", "--env", "${var.env}", "--warehouse-id", "${var.warehouse_id}", "--target-endpoint", "${var.target_endpoint}", "--lakebase-project", "${var.lakebase_project}", "--lakebase-database", "${var.lakebase_database}", "--", "--top", "2"]

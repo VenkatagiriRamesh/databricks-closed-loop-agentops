@@ -7,8 +7,9 @@ SCHEMAS = ('redteam', 'judging', 'release', 'monitoring', 'improve', 'state', 'p
 
 
 def setup_statements(catalog: str) -> list[str]:
-    return [f'CREATE CATALOG IF NOT EXISTS {catalog}'] + [
-        f'CREATE SCHEMA IF NOT EXISTS {catalog}.{s}' for s in SCHEMAS]
+    return ([f'CREATE CATALOG IF NOT EXISTS {catalog}']
+            + [f'CREATE SCHEMA IF NOT EXISTS {catalog}.{s}' for s in SCHEMAS]
+            + [f'CREATE VOLUME IF NOT EXISTS {catalog}.state.reports'])
 
 
 def setup_uc(catalog: str, run: Callable[[str], object]) -> list[str]:

@@ -1,0 +1,70 @@
+resources:
+  jobs:
+    agentops_release_pipeline:
+      name: agentops_release_pipeline_${var.env}
+      environments:
+        - environment_key: default
+          spec:
+            client: "2"
+            dependencies:
+              - ../dist/*.whl
+      tasks:
+      - task_key: setup_uc
+        environment_key: default
+        spark_python_task:
+          python_file: ../scripts/job_entry.py
+          parameters: ["--script", "setup_uc", "--env", "${var.env}", "--warehouse-id", "${var.warehouse_id}", "--target-endpoint", "${var.target_endpoint}", "--lakebase-project", "${var.lakebase_project}", "--lakebase-database", "${var.lakebase_database}"]
+      - task_key: migrate_lakebase
+        depends_on:
+          - task_key: setup_uc
+        environment_key: default
+        spark_python_task:
+          python_file: ../scripts/job_entry.py
+          parameters: ["--script", "migrate_lakebase", "--env", "${var.env}", "--warehouse-id", "${var.warehouse_id}", "--target-endpoint", "${var.target_endpoint}", "--lakebase-project", "${var.lakebase_project}", "--lakebase-database", "${var.lakebase_database}"]
+      - task_key: eval_challenger
+        depends_on:
+          - task_key: migrate_lakebase
+        environment_key: default
+        spark_python_task:
+          python_file: ../scripts/job_entry.py
+          parameters: ["--script", "eval_challenger", "--env", "${var.env}", "--warehouse-id", "${var.warehouse_id}", "--target-endpoint", "${var.target_endpoint}", "--lakebase-project", "${var.lakebase_project}", "--lakebase-database", "${var.lakebase_database}", "--", "--role", "challenger", "--split", "heldout"]
+      - task_key: parity
+        depends_on:
+          - task_key: migrate_lakebase
+        environment_key: default
+        spark_python_task:
+          python_file: ../scripts/job_entry.py
+          parameters: ["--script", "run_parity", "--env", "${var.env}", "--warehouse-id", "${var.warehouse_id}", "--target-endpoint", "${var.target_endpoint}", "--lakebase-project", "${var.lakebase_project}", "--lakebase-database", "${var.lakebase_database}", "--", "--golden", "eval/golden_set.jsonl"]
+      - task_key: redteam
+        depends_on:
+          - task_key: eval_challenger
+          - task_key: parity
+        environment_key: default
+        spark_python_task:
+          python_file: ../scripts/job_entry.py
+          parameters: ["--script", "run_redteam", "--env", "${var.env}", "--warehouse-id", "${var.warehouse_id}", "--target-endpoint", "${var.target_endpoint}", "--lakebase-project", "${var.lakebase_project}", "--lakebase-database", "${var.lakebase_database}"]
+      - task_key: decide_release
+        depends_on:
+          - task_key: redteam
+        environment_key: default
+        spark_python_task:
+          python_file: ../scripts/job_entry.py
+          parameters: ["--script", "decide_release", "--env", "${var.env}", "--warehouse-id", "${var.warehouse_id}", "--target-endpoint", "${var.target_endpoint}", "--lakebase-project", "${var.lakebase_project}", "--lakebase-database", "${var.lakebase_database}"]
+
+    agentops_promote:
+      name: agentops_promote_${var.env}
+      parameters:
+        - name: candidate_id
+          default: ""
+      environments:
+        - environment_key: default
+          spec:
+            client: "2"
+            dependencies:
+              - ../dist/*.whl
+      tasks:
+      - task_key: promote
+        environment_key: default
+        spark_python_task:
+          python_file: ../scripts/job_entry.py
+          parameters: ["--script", "promote", "--env", "${var.env}", "--warehouse-id", "${var.warehouse_id}", "--target-endpoint", "${var.target_endpoint}", "--lakebase-project", "${var.lakebase_project}", "--lakebase-database", "${var.lakebase_database}", "--candidate", "{{job.parameters.candidate_id}}", "--actor", "bundle"]

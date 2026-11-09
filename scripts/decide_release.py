@@ -83,6 +83,7 @@ def main() -> int:
     (rd / f'release_{day}.json').write_text(json.dumps(
         {**asdict(decision), 'candidate': row['candidate'], 'note': note}, indent=2))
     (rd / f'release_{day}.md').write_text(note)
+    (rd / 'release_latest.json').write_text((rd / f'release_{day}.json').read_text())
     print(f'{decision.verdict} candidate={row["candidate"]} reasons={len(decision.reasons)}')
     return 0 if state_ok else 3
 
