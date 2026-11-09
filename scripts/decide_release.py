@@ -51,8 +51,11 @@ def main() -> int:
     champion = _load(rd / 'eval_champion.json', EvalReport.from_json)
     redteam = _load(rd / 'redteam_latest.json', RedTeamReport.from_json)
     regression = _load(rd / 'regression_latest.json', RedTeamReport.from_json)
-    trust_raw = json.loads((rd / 'trust_map.json').read_text()) if (rd / 'trust_map.json').exists() \
-        else {}
+    if redteam is None or regression is None:
+        print('missing redteam_latest.json or regression_latest.json', file=sys.stderr)
+        return 2
+    tm = rd / 'trust_map.json'
+    trust_raw = json.loads(tm.read_text()) if tm.exists() else {}
     decision = decide(policy, champion, challenger, redteam, regression,
                       _parity(rd / 'parity_latest.json'), trust_raw)
 
