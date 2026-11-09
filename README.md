@@ -34,6 +34,15 @@ Work in progress. Design: [docs/SPEC.md](docs/SPEC.md). Plan:
 | M6 Runtime | not started |
 | M7 Evidence and docs | not started |
 
+## DeepEval
+
+[DeepEval](https://github.com/confident-ai/deepeval) is a member of the judge panel
+(`src/agentops/judging/deepeval_judge.py`). Its `FaithfulnessMetric` (groundedness) and a `GEval`
+correctness metric run on the Databricks-served models through a small `DeepEvalBaseLLM` wrapper,
+so no OpenAI key is needed and telemetry is off. Scores are 0..1 like the copilot's own judges, and
+like them each DeepEval metric blocks a release only once its Cohen's kappa against your labels is
+at least 0.6 on 20 or more labels. A call that errors scores 0.0 rather than raising.
+
 ## Develop
 
 ```bash
