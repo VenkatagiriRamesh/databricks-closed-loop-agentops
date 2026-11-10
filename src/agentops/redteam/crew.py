@@ -3,7 +3,9 @@ from __future__ import annotations
 
 import datetime as dt
 import json
+import logging
 import re
+import time
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import TypedDict
@@ -18,6 +20,7 @@ from agentops.redteam.report import AttackRecord, RedTeamReport, build_report
 from agentops.redteam.taxonomy import CATEGORIES, Attack
 from agentops.target import AgentTarget
 
+log = logging.getLogger('agentops.redteam')
 SEEDS_PATH = Path(__file__).with_name('seeds.jsonl')
 MUTATION_CYCLE = tuple(MUTATIONS)
 
@@ -140,7 +143,9 @@ class Crew:
     def executor(self, state):
         pending = []
         for a in state['attacks']:
+            t0 = time.monotonic()
             pending.append((a, execute_attack(self.target, a, f'rt-{a.id}')))
+            log.info('attack %s (%s) answered in %.1fs', a.id, a.category, time.monotonic() - t0)
         return {'pending': pending}
 
     def oracle(self, state):

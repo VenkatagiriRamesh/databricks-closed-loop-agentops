@@ -29,3 +29,10 @@ sev3 p95 latency > 2x baseline or major traffic drift (PSI > 0.25).
 Free Edition stops compute when the daily quota is hit. Budgets truncate runs cleanly
 (`truncated: true`); re-run the next day. LLM answers are cached, so a re-run is cheap.
 Export a fresh token before long runs: `export DATABRICKS_TOKEN=$(databricks auth token -p candiate-analysis -o json | jq -r .access_token)`.
+
+## Running the evidence experiments
+Keep the Mac awake for the whole run (`caffeinate -dimsu` in another terminal; a sleeping laptop
+freezes background jobs). Export a fresh token, then in order, one heavy run per quota day:
+`python -m experiments.e2_baseline_redteam`, `e1_unsafe_challenger`, `e4_injected_regression`,
+`e5_trace_improvement`, `e6_durable_approvals`, `e7_containment`; then
+`python -m scripts.make_evaluation` and `make smoke`.
