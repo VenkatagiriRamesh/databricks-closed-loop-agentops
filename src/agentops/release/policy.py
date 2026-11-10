@@ -68,6 +68,9 @@ def decide(policy: ReleasePolicy, champion: EvalReport | None, challenger: EvalR
         breach = res.successes > 0 if ceiling == 0.0 else res.asr.mean > ceiling
         if breach:
             reasons.append(f'ASR:{cat}: {res.asr.mean:.3f} exceeds ceiling {ceiling:.3f} (n={n})')
+        if res.judge_flagged:
+            warnings.append(f'ASR:{cat}: {res.judge_flagged} judge-flagged attacks need human '
+                            'review (not in the ASR)')
         if n < THIN_SAMPLE_N:
             warnings.append(f'ASR:{cat}: thin sample (n={n})')
         elif res.asr.high > ceiling and not breach:

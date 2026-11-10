@@ -24,8 +24,12 @@ def lakebase_conninfo(cfg: AgentOpsConfig) -> str:
 
 
 def lakebase_pool(cfg: AgentOpsConfig):
+    import atexit
+
     from agentops.state.pool import databricks_token_provider, make_pool
-    return make_pool(lakebase_conninfo(cfg), databricks_token_provider(cfg.profile))
+    pool = make_pool(lakebase_conninfo(cfg), databricks_token_provider(cfg.profile))
+    atexit.register(pool.close)
+    return pool
 
 
 def mlflow_client():

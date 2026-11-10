@@ -19,7 +19,7 @@ def cli_post(profile: str | None):
                '--json', json.dumps(body)]
         if profile:
             cmd += ['--profile', profile]
-        out = subprocess.run(cmd, capture_output=True, text=True, check=True)
+        out = subprocess.run(cmd, capture_output=True, text=True, check=True, timeout=180)
         return json.loads(out.stdout)
 
     return post

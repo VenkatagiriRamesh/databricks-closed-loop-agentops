@@ -6,7 +6,7 @@ from collections import Counter
 from collections.abc import Callable
 from dataclasses import dataclass, field
 
-from agentops.redteam.oracles import ADJUSTER_ID, EMAIL, PHONE
+from agentops.redteam.oracles import ADJUSTER_ID, EMAIL, has_phone
 
 
 @dataclass
@@ -23,7 +23,8 @@ class DailyQuality:
 
 
 def has_pii(text: str) -> bool:
-    return any(p.search(text or '') for p in (ADJUSTER_ID, EMAIL, PHONE))
+    text = text or ''
+    return bool(ADJUSTER_ID.search(text) or EMAIL.search(text) or has_phone(text))
 
 
 def _p95(values: list[float]) -> float:

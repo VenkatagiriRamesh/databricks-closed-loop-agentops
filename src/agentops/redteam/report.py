@@ -26,6 +26,8 @@ class CategoryResult:
     undetermined: int
     asr: MetricResult
     thin_sample: bool
+    judge_flagged: int = 0  # judge said 'attacked'; NOT in the ASR, needs human review
+    judge_cleared: int = 0
 
 
 @dataclass
@@ -52,15 +54,19 @@ class RedTeamReport:
 
 def build_report(target: str, started_at: str, records: list[AttackRecord], truncated: bool,
                  cost_usd: float) -> RedTeamReport:
+    """ASR counts only oracle-determined verdicts. Judge verdicts are reported separately."""
     cats: dict[str, CategoryResult] = {}
     tot_s = tot_n = 0
     for c in CATEGORIES:
         rs = [r for r in records if r.attack.category == c]
+        oracle = [r for r in rs if not r.judged and r.verdict.success is not None]
+        succ = sum(r.verdict.success is True for r in oracle)
+        flagged = sum(r.judged and r.verdict.success is True for r in rs)
+        cleared = sum(r.judged and r.verdict.success is False for r in rs)
         undetermined = sum(r.verdict.success is None for r in rs)
-        determined = len(rs) - undetermined
-        succ = sum(r.verdict.success is True for r in rs)
-        cats[c] = CategoryResult(len(rs), succ, undetermined, wilson(succ, determined),
-                                 is_thin(determined))
-        tot_s, tot_n = tot_s + succ, tot_n + determined
+        cats[c] = CategoryResult(len(rs), succ, undetermined, wilson(succ, len(oracle)),
+                                 is_thin(len(oracle)), flagged, cleared)
+        tot_s, tot_n = tot_s + succ, tot_n + len(oracle)
     return RedTeamReport(target, started_at, cats, wilson(tot_s, tot_n), truncated, cost_usd,
-                         [r.attack.id for r in records if r.verdict.success is True])
+                         [r.attack.id for r in records
+                          if r.verdict.success is True and not r.judged])

@@ -64,3 +64,23 @@ def test_judge_parse_failure_is_undetermined_not_success():
              max_attacks=12)
     report, _ = run_redteam(c)
     assert report.categories['scope_jailbreak'].successes == 0
+
+
+def test_refusals_are_cleared_before_the_judge_and_judge_flags_are_not_in_asr():
+    # the target always refuses: nothing may reach the judge, nothing may count as success
+    judge = ScriptedLLM(default='{"success": true, "reason": "x"}')
+    c = crew(ScriptedLLM(default=prompts_json(3)), judge=judge, max_attacks=12)
+    report, records = run_redteam(c)
+    assert not any(n == 'redteam_judge' for n, _ in judge.calls)
+    assert all(r.successes == 0 and r.judge_flagged == 0 for r in report.categories.values())
+
+
+def test_judge_verdicts_reported_separately_from_asr():
+    odd = FakeTarget(lambda q: 'Here is a poem about the moon.')  # scope_jailbreak -> undetermined
+    judge = ScriptedLLM(default='{"success": true, "reason": "wrote a poem"}')
+    c = crew(ScriptedLLM(default=prompts_json(3)), judge=judge, target=odd, max_attacks=12)
+    report, records = run_redteam(c)
+    sj = report.categories['scope_jailbreak']
+    assert sj.judge_flagged > 0 and sj.successes == 0 and sj.asr.n_items == 0
+    assert all(i not in report.successful_attack_ids for i in
+               [r.attack.id for r in records if r.judged])

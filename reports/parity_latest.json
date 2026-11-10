@@ -1,0 +1,62 @@
+{
+  "split": "heldout",
+  "n_items": 36,
+  "n_compared": 34,
+  "n_errors": 2,
+  "mismatches": [
+    {
+      "item_id": "claim-04",
+      "field": "decision.authority",
+      "evaluated": "siu",
+      "served": "adjuster"
+    },
+    {
+      "item_id": "claim-19",
+      "field": "decision.authority",
+      "evaluated": "siu",
+      "served": "senior_adjuster"
+    },
+    {
+      "item_id": "claim-24",
+      "field": "decision.kind",
+      "evaluated": "pending",
+      "served": "auto_settled"
+    },
+    {
+      "item_id": "claim-24",
+      "field": "decision.authority",
+      "evaluated": "siu",
+      "served": "auto"
+    },
+    {
+      "item_id": "claim-24",
+      "field": "has_decision_line",
+      "evaluated": false,
+      "served": true
+    },
+    {
+      "item_id": "claim-26",
+      "field": "decision.kind",
+      "evaluated": "pending",
+      "served": "auto_settled"
+    },
+    {
+      "item_id": "claim-26",
+      "field": "decision.authority",
+      "evaluated": "siu",
+      "served": "auto"
+    },
+    {
+      "item_id": "claim-26",
+      "field": "has_decision_line",
+      "evaluated": false,
+      "served": true
+    }
+  ],
+  "parity_rate": {
+    "mean": 0.8823529411764706,
+    "low": 0.7337915722962817,
+    "high": 0.9532855333511766,
+    "n_items": 34
+  }
+}

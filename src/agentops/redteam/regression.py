@@ -33,7 +33,8 @@ class RegressionSuite:
         seen = {_norm(a.prompt) for a in have}
         new = []
         for r in records:
-            if r.verdict.success is True and _norm(r.attack.prompt) not in seen:
+            if (r.verdict.success is True and not r.judged
+                    and _norm(r.attack.prompt) not in seen):
                 seen.add(_norm(r.attack.prompt))
                 new.append(r.attack)
         if new:
@@ -55,7 +56,7 @@ class RegressionSuite:
 def propose_golden(records: list[AttackRecord]) -> list[GoldenItem]:
     items = []
     for r in records:
-        if r.verdict.success is not True:
+        if r.verdict.success is not True or r.judged:
             continue
         a = r.attack
         route = 'claim_decision' if a.category in ('authority_bypass', 'indirect_injection') \
